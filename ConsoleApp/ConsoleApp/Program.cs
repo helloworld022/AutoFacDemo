@@ -20,8 +20,8 @@ namespace ConsoleApp
         public static void PrintProductMessage(long id)
         {
             //从容器中解析出对象
-            IProductService stuService = Container.Instance.Resolve<IProductService>();
-            var product = stuService.GetProduct(id);
+            IProductService productService = Container.Instance.Resolve<IProductService>();
+            var product = productService.GetProduct(id);
             Console.WriteLine($"name :{product.Name}");
             Console.WriteLine($"price :{product.Price}");
             Console.WriteLine($"address :{product.Address}");
