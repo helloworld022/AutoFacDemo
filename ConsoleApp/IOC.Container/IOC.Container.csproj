@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IOC.Repository\IOC.Repository.csproj" />
+    <ProjectReference Include="..\IOC.Service\IOC.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IOC.Container\IOC.Container.csproj" />
+    <ProjectReference Include="..\IOC.Service\IOC.Service.csproj" />
+  </ItemGroup>
+
+</Project>
